@@ -5,7 +5,7 @@ authors = ["Samuel Ibarra <ing.samuelibarra@gmail.com>"]
 edition = "2021"
 
 [lib]
-path = "src/bin.rs"
+path = "src/lib.rs"
 
 [[bin]]
 path = "src/main.rs"
