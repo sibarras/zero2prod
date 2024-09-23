@@ -1,7 +1,15 @@
 [package]
 name = "zero2prod"
 version = "0.1.0"
+authors = ["Samuel Ibarra <ing.samuelibarra@gmail.com>"]
 edition = "2021"
+
+[lib]
+path = "src/bin.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "zero2prod"
 
 [dependencies]
 axum = "0.7.6"
